@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family:"Fira Sans", serif;
-    /* background-color: #F5F5F5; */
+    background-color: #F5F5F5;
 }
 .share_mar_lr{
     /* margin-left: 160px;
@@ -20,6 +20,34 @@
 }
 img{
     width: 100%;
+}
+
+.cl_30{
+    color: #0E0E0E4D;
+}
+.cl_50{
+    color: #0E0E0E80;
+}
+.cl_60{
+    color: #0E0E0E99;
+}
+.cl_70{
+    color: #0E0E0EB3;
+}
+.cl_80{
+    color: #0E0E0ECC;
+}
+.cl_100{
+    color: #0E0E0E;
+}
+.crt_cl1{
+    background-color: #5490F533;
+}
+.crt_cl2{
+    background-color: #C6E4D6;
+}
+.crt_cl3{
+    background-color: #F7EBCF;
 }
 .section_head{
     color: #0E0E0E;
@@ -128,11 +156,6 @@ nav button{
     height: 93px;
     margin-bottom: 20px;
 }
-/* .pilar_cart_del>p{
-    margin-top: 14px;
-    font-size: 20px;
-    line-height: 28px;
-} */
 .para{
     margin-top: 14px;
     font-size: 20px;
@@ -141,14 +164,10 @@ nav button{
 .pilar_cart_del>*{
     background-color:#FFFFFF;
 }
-.pil_img>img{
-    background-color: #FFFFFF;
-}
 .vision_sec{
     width: 1580px;
     height:918px ;
     margin: 106px 160px;
-    background-color: #006A50;
 }
 .vision_main_cart{
     display: flex;
@@ -163,7 +182,9 @@ nav button{
     margin: 38px 1px;
     padding: 32px;
     border-radius: 16px;
-    background-color: burlywood;
+}
+.vision_cart *{
+    background-color: rgba(255, 255, 255, 0);
 }
 .vis_buton button{
     margin-top: 28px;
@@ -175,6 +196,15 @@ nav button{
     font-weight: 700;
     border: none;
 }
+.crt_bt1 button{
+    background-color:#5490F5 ;
+}
+.crt_bt2 button{
+    background-color: #09A15C;
+}
+.crt_bt3 button{
+    background-color:#FFC239 ;
+}
 .ditel{
     height:125px ;
     width: auto;
@@ -184,16 +214,18 @@ nav button{
     height: 310px; */
     width: 1516px;
     height: 190px;
-    background-color: burlywood;
     border-radius: 16px;
-    border: 1px solid 1px #0E0E0E26;
-    /* background-color: #FFFFFF; */
+    border: 1px solid 1px 1px inside #0E0E0E26;
+    background-color: #FFFFFF;
     background-image: url(../pic_1/quote-bg.png);
     background-repeat: no-repeat;
     background-position-x: 2%;
     background-position-y: 12%;
     background-size: 85px;
     padding: 60px 32px;
+}
+.quate *{
+    background-color: rgba(255, 255, 255, 0);
 }
 .ex_pra{
     margin-top: 0px;
@@ -208,19 +240,21 @@ nav button{
     width: 1580px;
     height:1740px ;
     margin: 106px 160px;
-    background-color: #006A50;
 }
 
 .card_1{
     display: flex;
     gap: 64px;
     align-items: center;
-    background-color: aqua;
+    background-color: #FFFFFF;
     height: auto;
     width: auto;
     border-radius: 24px;
     margin-top:40px;
     padding:60px;
+}
+.card_1 *{
+    background-color: #FFFFFF;
 }
 .news_img img{
     height: 368px;
@@ -260,7 +294,6 @@ nav button{
     width: 1580px;
     height: 560px;
     margin: 106px 160px;
-    background-color: #006A50;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -281,16 +314,22 @@ nav button{
     height: 154px;
     margin: 0px 14px;
     border-radius: 16px;
+    border: 1px solid 1px #0E0E0E26;
     color: #0E0E0E;
+    background-color: #FFFFFF ;
     font-size: 48px;
     font-weight: 700;
+}
+.int_cl{
+background-color: #C6E4D6;
 }
 .int_siz input{
     width: 1250px;
     height: 75px;
     border: none;
     border: none;
-    border-bottom: 1px solid #C6E4D6;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
     text-align: center;
     font-size: 24px;
 }
@@ -298,7 +337,10 @@ nav button{
     width: 182px;
     height: 70px;
     border-radius: 8px;
+    border: 1px solid 1px	Inside  #0E0E0E1A;
     background-color: #006A50;
+    font-size: 20px;
+    font-weight: 700;
 }
 .sec_sub{
     height: 315px;
@@ -311,6 +353,9 @@ nav button{
     gap: 32px;
     align-items: center;
     padding: 80px 390px;
+}
+.sec_sub *{
+    background-color:#C6E4D6;
 }
 .mar_pad{
     margin: 0px;
@@ -328,6 +373,7 @@ nav button{
     padding-left: 50px;
     font-size: 18px;
     border: none;
+    background-color: #FFFFFF;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
@@ -338,6 +384,7 @@ nav button{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     background-color: #006A50;
+    font-weight: 700;
 }
 footer{
     /* height: 272px;
@@ -345,8 +392,11 @@ footer{
     height: 122px;
     width: 1770px;
     padding: 75px;
-    background-color: aqua;
+    background-color: #FFFFFF;
     justify-items: center;
+}
+footer *{
+    background-color: #FFFFFF;
 }
 .img_sz{
     width: 30px;
@@ -361,4 +411,30 @@ hr{
     margin: 30px 0px;
     width: 1200px;
     
+}
+
+.bttn:hover{
+    background-color: #ff6f61;
+    color:  #FFFFFF;
+}
+.cld1:hover{
+    background-color: #e0ffe0;
+}
+.cld2:hover{
+    background-color:#e6e6fa ;
+}
+.cld3:hover{
+    background-color: #ffd1dc;
+}
+.cld4:hover{
+    background-color:#e0ffff ;
+}
+.ctt1:hover{
+    background-color:#4aa2ef ;
+}
+.ctt2:hover{
+    background-color:#94d6ff ;
+}
+.ctt3:hover{
+    background-color:#ffb7c6 ;
 }
